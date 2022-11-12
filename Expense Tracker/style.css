@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@400;600&display=swap");
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 2rem 2rem;
+  margin: 0 auto;
+}
+header h1 {
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+header h2 {
+  padding: 0 4.8rem;
+  color: rgb(37, 93, 37);
+}
+
+#fill-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+.name {
+  padding: 2rem 0;
+}
+.date {
+  width: 100%;
+  float: left;
+}
+.amount {
+  width: 70%;
+  float: left;
+}
+#name-input {
+  width: 75%;
+  padding: 12px 12px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+.combined-date-amount {
+  display: flex;
+  flex-direction: row;
+}
+#date-input {
+  padding: 12px 12px;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+#amount-input {
+  padding: 12px;
+  box-sizing: border-box;
+  width: 36%;
+}
+#new-task-submit {
+  width: 200px;
+  background-color: rgb(79, 155, 79);
+  color: white;
+  position: relative;
+  left: 35%;
+
+  padding: 18px 12px;
+  line-height: 1.1em;
+  cursor: pointer;
+  border-style: hidden;
+}
+table {
+  padding: 3rem;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid black;
+}
+
+thead {
+  color: rgb(37, 93, 37);
+  line-height: 30px;
+}
+.button {
+  padding-top: 20px;
+}
+#expense-table {
+  border: 1px solid;
+}
